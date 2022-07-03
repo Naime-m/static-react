@@ -1,0 +1,1 @@
+ReactDOM.render(<p>Sample text</p>, document.getElementById("root"))
