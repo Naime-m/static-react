@@ -1,9 +1,42 @@
+function Header() {
+    return(
+        <header>
+            <nav>
+            <img src="react-logo.png" width="100px"/>
+            </nav>
+        </header>
+    )
+}
+
+function MainContent() {
+    return(
+        <div>
+        <h1>Title of my page</h1>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        </div>
+    )
+}
+
+function Footer() {
+    return(
+        <footer>
+            <p>© 2022 Naime Medjek</p>
+        </footer>
+    )
+}
+
+
 function Page() {
     return(
-            <ul>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
     )
 }
 
