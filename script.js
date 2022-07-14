@@ -1,8 +1,13 @@
 function Header() {
     return(
         <header>
-            <nav>
-            <img src="react-logo.png" width="100px"/>
+            <nav className= "nav">
+            <img className = "logo" src="react-logo.png" />
+            <ul className="nav-items">
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
             </nav>
         </header>
     )
@@ -10,7 +15,7 @@ function Header() {
 
 function MainContent() {
     return(
-        <div>
+        <div className="content">
         <h1>Title of my page</h1>
         <ol>
             <li>Item 1</li>
@@ -23,7 +28,7 @@ function MainContent() {
 
 function Footer() {
     return(
-        <footer>
+        <footer className ="footer">
             <p>© 2022 Naime Medjek</p>
         </footer>
     )
